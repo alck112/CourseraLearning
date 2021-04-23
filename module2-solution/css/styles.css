@@ -21,7 +21,25 @@ h1 {
 
     border: 1px black solid;
     background-color: #F4F4F4;
-    font-family: "Oswald";
+    font-family: "Gill Sans";
+
+    position: relative;
+}
+
+.SectionTitle {
+
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    width: 150px;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+    text-align: center;
+    padding:5px 0 5px 0;
+}
+
+.description {
+
+    padding: 10px;
 }
 
 /*Large devices only*/
