@@ -6,7 +6,8 @@
 
 .row {
 
-width: 100%
+    width: 100%;
+
 }
 
 /*title*/
@@ -23,7 +24,12 @@ h1 {
     background-color: #F4F4F4;
     font-family: "Gill Sans";
 
+}
+
+.SectionTitleContainer {
+
     position: relative;
+    height:  2.5em;
 }
 
 .SectionTitle {
@@ -35,11 +41,15 @@ h1 {
     border-bottom: 1px black solid;
     text-align: center;
     padding:5px 0 5px 0;
+
+    position: absolute;
+    right: 0px;
 }
 
 .description {
 
     padding: 10px;
+
 }
 
 /*Large devices only*/
@@ -91,6 +101,7 @@ h1 {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
         padding: 10px;
+
     }
     .col-md-1 {
         width: 8.33%;
