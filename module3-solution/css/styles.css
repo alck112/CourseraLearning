@@ -1,1 +1,41 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #DCDCDC;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*Header*/
+nav {
+
+    background-color: #ab9772;
+}
+
+#myNavbar a {
+
+    color: #FFFFFF;
+}
+
+/*Main content*/
+.container {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container {
+
+    color: #030303;
+}
+
+/*Menu title*/
+h2 {
+
+    text-align: center;
+}
+
+/*Menu Content*/
+.content {
+
+    background-color: #DECE9D;
+}
 
