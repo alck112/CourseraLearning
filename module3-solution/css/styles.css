@@ -16,6 +16,18 @@ nav {
     color: #FFFFFF;
 }
 
+/*#myNavbar ul {*/
+/*    width: 100%;*/
+/*    background-color: aquamarine;*/
+/*}*/
+
+#myNavbar li {
+    background-color: aquamarine;
+    margin-bottom: 2px;
+}
+
+
+
 /*Main content*/
 .container {
 
@@ -37,5 +49,10 @@ h2 {
 .content {
 
     background-color: #DECE9D;
+}
+
+.content a {
+
+    text-decoration: none;
 }
 
